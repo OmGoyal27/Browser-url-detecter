@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Web URL Sender",
+  "version": "1.0",
+  "description": "Sends the currently open website URL to a Python script.",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
